@@ -1,0 +1,32 @@
+body {
+    overflow-x: hidden;
+}
+.custome-color {
+    background-color: #D35266;
+}
+
+.custome-color-grey {
+    background-color: #f3f3f3;
+}
+
+.custome-color-grey-black {
+    background-color: #383838;
+}
+
+.custome-font-grey{
+    color: #888888;
+}
+
+.custome-font-color {
+    color:#D35266;
+}
+
+.card img {
+    height: 210px;
+}
+
+::placeholder,
+.dept {
+    font-size: 15px;
+}
+
