@@ -5,6 +5,10 @@ body {
     background-color: #D35266;
 }
 
+.custome-white {
+    background-color: white;
+}
+
 .custome-color-grey {
     background-color: #f3f3f3;
 }
@@ -21,8 +25,22 @@ body {
     color:#D35266;
 }
 
+ .hot-image img{
+    height: 230px;
+    width: 100%;
+} 
+
 .card img {
     height: 210px;
+}
+
+.search-image img {
+    height: 160px;
+    width: 180px;
+}
+
+.cust-image img {
+    height: 30px;
 }
 
 ::placeholder,
@@ -30,3 +48,19 @@ body {
     font-size: 15px;
 }
 
+.extra-font {
+    font-size: 20px;
+}
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+ } 
+
+ .space {
+     margin-left: 30px;
+     margin-right: 30px;
+ }
+  
