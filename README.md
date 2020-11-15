@@ -30,7 +30,7 @@ Project describes Zattix home page, it shows a Login user on the top-right corne
  
  
  
-[Live demo link](https://gango-anan.github.io/newsweek-bootstrap/)
+[Live demo link](https://rawcdn.githack.com/Varun2323/Capestone-HTML-CSS/df804819acfdcf8e0f3ef9140fbd6985f46f56cb/index.html)
 
  
  

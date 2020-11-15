@@ -1,66 +1,107 @@
 body {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
+
+@font-face {
+  font-family: 'gotham';
+  src: url(fonts/GothamBold.ttf);
+  font-weight: bold;
+  }
+  
+@font-face {
+  font-family: 'gotham';
+  src: url(fonts/GothamLight.ttf);
+}
+  
+@font-face {
+  font-family: 'helvetica neue';
+  src: url(fonts/HelveticaNeueLT75Bold.ttf);
+  font-weight: bold;
+}
+  
+@font-face {
+  font-family: 'helvetica neue';
+  src: url(fonts/HelveticaNeueLT65Medium.ttf);
+  font-weight: 400;
+}
+  
+@font-face {
+  font-family: 'helvetica neue';
+  src: url(fonts/HelveticaNeuLight.ttf);
+}
+
+.font-family-header {
+  font-family: gotham, sans-serif;
+}
+
+.font-family-text {
+  font-family: 'helvetica neue', sans-serif;
+  font-weight: 500;
+}
+
 .custome-color {
-    background-color: #D35266;
+  background-color: #D35266;
 }
 
 .custome-white {
-    background-color: white;
+  background-color: white;
+}
+
+.custome-color-a {
+  color: white;
 }
 
 .custome-color-grey {
-    background-color: #f3f3f3;
+  background-color: #f3f3f3;
 }
 
 .custome-color-grey-black {
-    background-color: #383838;
+  background-color: #383838;
 }
 
 .custome-font-grey{
-    color: #888888;
+  color: #888888;
 }
 
 .custome-font-color {
-    color:#D35266;
+  color:#D35266;
 }
 
  .hot-image img{
-    height: 230px;
-    width: 100%;
+  height: 230px;
+  width: 100%;
 } 
 
 .card img {
-    height: 210px;
+  height: 210px;
 }
 
 .search-image img {
-    height: 160px;
-    width: 180px;
+  height: 160px;
+  width: 180px;
 }
 
 .cust-image img {
-    height: 30px;
+  height: 30px;
 }
 
 ::placeholder,
 .dept {
-    font-size: 15px;
+  font-size: 15px;
 }
 
 .extra-font {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .no-gutters {
-    margin-right: 0;
-    margin-left: 0;
-    padding-left: 0;
-    padding-right: 0;
+  margin-right: 0;
+  margin-left: 0;
+  padding-left: 0;
+  padding-right: 0;
  } 
 
- .space {
-     margin-left: 30px;
-     margin-right: 30px;
- }
-  
+.space {
+  margin-left: 30px;
+  margin-right: 30px;
+}
