@@ -37,7 +37,7 @@ Project describes Zattix home page, it shows a Login user on the top-right corne
 Zattix Shoping page including a Header, Main and Footer sections.
 
 
- ### **Requirements:**
+### **Requirements:**
  - OS: Windows, Linux, or Mac.
  - Browser: Google Chrome, Mozilla Firefox, Edge, etc.
  
