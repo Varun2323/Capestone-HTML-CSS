@@ -27,13 +27,11 @@ Project describes Zattix home page, it shows a Login user on the top-right corne
  ### **Tools used:**
  
  HTML5, and CSS3.
- 
- 
+
  
 [Live demo link](https://varun2323.github.io/Capestone-HTML-CSS/)
 
- 
- 
+
 ### **Getting Started:**
 
 Zattix Shoping page including a Header, Main and Footer sections.

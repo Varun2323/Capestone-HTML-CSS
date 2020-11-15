@@ -6,25 +6,25 @@ body {
   font-family: 'gotham';
   src: url(fonts/GothamBold.ttf);
   font-weight: bold;
-  }
-  
+}
+
 @font-face {
   font-family: 'gotham';
   src: url(fonts/GothamLight.ttf);
 }
-  
+
 @font-face {
   font-family: 'helvetica neue';
   src: url(fonts/HelveticaNeueLT75Bold.ttf);
   font-weight: bold;
 }
-  
+
 @font-face {
   font-family: 'helvetica neue';
   src: url(fonts/HelveticaNeueLT65Medium.ttf);
   font-weight: 400;
 }
-  
+
 @font-face {
   font-family: 'helvetica neue';
   src: url(fonts/HelveticaNeuLight.ttf);
@@ -40,7 +40,7 @@ body {
 }
 
 .custome-color {
-  background-color: #D35266;
+  background-color: #d35266;
 }
 
 .custome-white {
@@ -59,18 +59,18 @@ body {
   background-color: #383838;
 }
 
-.custome-font-grey{
-  color: #888888;
+.custome-font-grey {
+  color: #888;
 }
 
 .custome-font-color {
-  color:#D35266;
+  color: #d35266;
 }
 
- .hot-image img{
+.hot-image img {
   height: 230px;
   width: 100%;
-} 
+}
 
 .card img {
   height: 210px;
@@ -99,7 +99,7 @@ body {
   margin-left: 0;
   padding-left: 0;
   padding-right: 0;
- } 
+}
 
 .space {
   margin-left: 30px;
