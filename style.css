@@ -34,6 +34,11 @@ body {
   font-family: gotham, sans-serif;
 }
 
+.dot {
+  margin-left: 85%;
+  margin-top: -40px;
+}
+
 .font-family-text {
   font-family: 'helvetica neue', sans-serif;
   font-weight: 500;
@@ -48,6 +53,7 @@ body {
 }
 
 .custome-color-a {
+  font-size: 25px;
   color: white;
 }
 
@@ -74,7 +80,8 @@ body {
 
 .card img {
   height: 210px;
-}
+  width: 100%;
+} 
 
 .search-image img {
   height: 160px;
