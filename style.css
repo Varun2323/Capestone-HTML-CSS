@@ -86,7 +86,7 @@ body {
 .card img {
   height: 210px;
   width: 100%;
-} 
+}
 
 .search-image img {
   height: 160px;
@@ -122,7 +122,7 @@ body {
   margin-right: 30px;
 }
 
-@media  (max-width: 768px) {
+@media (max-width: 768px) {
   .search-info {
     display: none;
   }
