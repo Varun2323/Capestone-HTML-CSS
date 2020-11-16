@@ -49,7 +49,7 @@
                     </li>
                 </ul>
             </div>
-            <ul class="navbar-nav d-flex ml-auto">
+            <ul class="navbar-nav ml-auto">
                 <li class="mx-3 my-2 text-light d-none d-lg-block">
                     <ion-icon name="mail-outline"></ion-icon>
                 </li>
@@ -65,7 +65,7 @@
 
     <main>
         <!-- ======== Search information section ====== -->
-        <section class="search-items-info d-none d-md-block">
+        <section class="search-items-info search-info d-md-block">
             <div class="container-fluid custome-color py-5">
                 <h1 class="text-center text-light font-family-header font-weight-bold">ZATTIX</h1>
                 <p class="text-center text-light">Buying and Selling Couldn't be Simpler than this!</p>
@@ -186,7 +186,7 @@
                                 <p class="card-text"><span
                                         class="custome-font-color font-weight-bold">New</span><br>From:
                                     San Francisco</p>
-                                <div class="d-flex justify-content-between">
+                                <div class="card-flex">
                                     <div>
                                         <i class="material-icons">add_box</i>
                                     </div>
@@ -207,7 +207,7 @@
                                 <p class="card-text"><span
                                         class="custome-font-color font-weight-bold">Used</span><br>From:
                                     Santa Barbara</p>
-                                <div class="d-flex justify-content-between">
+                                <div class="card-flex">
                                     <div>
                                         <i class="material-icons">add_box</i>
                                     </div>
@@ -226,7 +226,7 @@
                                 <h6 class="card-title font-family-header font-weight-bold">Antique VCR TV</h6>
                                 <p class="card-text"><span
                                         class="custome-font-color font-weight-bold">Antique</span><br>From: New York</p>
-                                <div class="d-flex justify-content-between">
+                                <div class="card-flex">
                                     <div>
                                         <i class="material-icons">add_box</i>
                                     </div>
@@ -246,7 +246,7 @@
                                 <p class="card-text"><span
                                         class="custome-font-color font-weight-bold">New</span><br>From:
                                     Atlanta</p>
-                                <div class="d-flex justify-content-between">
+                                <div class="card-flex">
                                     <div>
                                         <i class="material-icons">add_box</i>
                                     </div>
@@ -267,7 +267,7 @@
                                 <p class="card-text"><span
                                         class="custome-font-color font-weight-bold">Used</span><br>From:
                                     San Francisco</p>
-                                <div class="d-flex justify-content-between">
+                                <div class="card-flex">
                                     <div>
                                         <i class="material-icons">add_box</i>
                                     </div>
@@ -288,7 +288,7 @@
                                 <p class="card-text"><span
                                         class="custome-font-color font-weight-bold">New</span><br>From:
                                     San Francisco</p>
-                                <div class="d-flex justify-content-between">
+                                <div class="card-flex">
                                     <div>
                                         <i class="material-icons">add_box</i>
                                     </div>
@@ -578,105 +578,112 @@
 
     <!-- =======footer========= -->
     <footer>
-        <div class="row py-4">
-            <div class="col-md-4 col-12 .no-gutters">
-                <div class="d-flex justify-content-center cust-image">
-                    <img src="images/logo-1.jpg" class="img-fluid" alt="logo">
-                    <h4 class="custome-font-grey font-family-header font-weight-bold"> ZATTIX </h4>
+        <section="footer-top">
+            <div class="row py-4">
+                <div class="col-md-4 col-12 .no-gutters">
+                    <div class="d-flex justify-content-center cust-image">
+                        <img src="images/logo-1.jpg" class="img-fluid" alt="logo">
+                        <h4 class="custome-font-grey font-family-header font-weight-bold"> ZATTIX </h4>
+                    </div>
+                    <p class="px-4 py-3 text-center">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                        ut
+                        aliquip ex ea commodo consequat.
+                    </p>
                 </div>
-                <p class="px-4 py-3 text-center">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat.
-                </p>
-            </div>
 
-            <div class="col-md-2 col-12 d-flex justify-content-center">
-                <ul class="list-unstyled .no gutters">
-                    <li class="font-weight-bold custome-font-color font-family-header font-weight-bold">
-                        <u>Categories</u></li>
-                    <li><a href="#" class="text-secondary">Pets</a></li>
-                    <li><a href="#" class="text-secondary">Fashion</a></li>
-                    <li><a href="#" class="text-secondary">Electronic</a></li>
-                    <li><a href="#" class="text-secondary">Food & Drinks</a></li>
-                    <li><a href="#" class="text-secondary">Clothing</a></li>
-                    <li><a href="#" class="text-secondary">Kids</a></li>
-                    <li><a href="#" class="text-secondary">Automotives</a></li>
-                    <li><a href="#" class="text-secondary">Kitchen</a></li>
-                </ul>
-            </div>
+                <div class="col-md-2 col-12 d-flex justify-content-center">
+                    <ul class="list-unstyled .no gutters">
+                        <li class="font-weight-bold custome-font-color font-family-header font-weight-bold">
+                            <u>Categories</u></li>
+                        <li><a href="#" class="text-secondary">Pets</a></li>
+                        <li><a href="#" class="text-secondary">Fashion</a></li>
+                        <li><a href="#" class="text-secondary">Electronic</a></li>
+                        <li><a href="#" class="text-secondary">Food & Drinks</a></li>
+                        <li><a href="#" class="text-secondary">Clothing</a></li>
+                        <li><a href="#" class="text-secondary">Kids</a></li>
+                        <li><a href="#" class="text-secondary">Automotives</a></li>
+                        <li><a href="#" class="text-secondary">Kitchen</a></li>
+                    </ul>
+                </div>
 
-            <div class="col-md-2 col-12 d-flex justify-content-center">
-                <ul class="list-unstyled pl-4">
-                    <li class="font-weight-bold custome-font-color font-family-header font-weight-bold">
-                        <u>Navigation</u></li>
-                    <li><a href="#" class="text-secondary">Home</a></li>
-                    <li><a href="#" class="text-secondary">Login</a></li>
-                    <li><a href="#" class="text-secondary">Sign Up</a></li>
-                    <li><a href="#" class="text-secondary">Terms & Conditions</a></li>
-                    <li><a href="#" class="text-secondary">FAQ</a></li>
-                    <li><a href="#" class="text-secondary">Help</a></li>
-                </ul>
-            </div>
+                <div class="col-md-2 col-12 d-flex justify-content-center">
+                    <ul class="list-unstyled pl-4">
+                        <li class="font-weight-bold custome-font-color font-family-header font-weight-bold">
+                            <u>Navigation</u></li>
+                        <li><a href="#" class="text-secondary">Home</a></li>
+                        <li><a href="#" class="text-secondary">Login</a></li>
+                        <li><a href="#" class="text-secondary">Sign Up</a></li>
+                        <li><a href="#" class="text-secondary">Terms & Conditions</a></li>
+                        <li><a href="#" class="text-secondary">FAQ</a></li>
+                        <li><a href="#" class="text-secondary">Help</a></li>
+                    </ul>
+                </div>
 
-            <div class="col-md-4 col-12 .no gutters d-flex justify-content-center">
-                <form class="pt-4">
-                    <div class="form-group row ">
-                        <label for="inputPassword"
-                            class="col-3 col-form-label font-weight-bold custome-font-color">COUNTRY</label>
-                        <div class="col-9">
-                            <input type="text" class="form-control form-control-sm w-75 ml-3" id="inputPassword"
-                                placeholder="United States">
+                <div class="col-md-4 col-12 .no gutters d-flex justify-content-center">
+                    <form class="pt-4">
+                        <div class="form-group row ">
+                            <label for="inputPassword"
+                                class="col-3 col-form-label font-weight-bold custome-font-color">COUNTRY</label>
+                            <div class="col-9">
+                                <input type="text" class="form-control form-control-sm w-75 ml-3" id="inputPassword"
+                                    placeholder="United States">
+                            </div>
                         </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="inputLanguage"
-                            class="col-3 col-form-label font-weight-bold custome-font-color">LANGUAGE</label>
-                        <div class="col-9">
-                            <input type="text" class="form-control form-control-sm w-75 ml-3" id="inputLanguage"
-                                placeholder="English">
+                        <div class="form-group row">
+                            <label for="inputLanguage"
+                                class="col-3 col-form-label font-weight-bold custome-font-color">LANGUAGE</label>
+                            <div class="col-9">
+                                <input type="text" class="form-control form-control-sm w-75 ml-3" id="inputLanguage"
+                                    placeholder="English">
+                            </div>
                         </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="inputCurrency"
-                            class="col-3 col-form-label font-weight-bold custome-font-color">CURRENCY</label>
-                        <div class="col-9">
-                            <input type="text" class="form-control form-control-sm w-75 ml-3" id="inputCurrency"
-                                placeholder="US Dollar">
+                        <div class="form-group row">
+                            <label for="inputCurrency"
+                                class="col-3 col-form-label font-weight-bold custome-font-color">CURRENCY</label>
+                            <div class="col-9">
+                                <input type="text" class="form-control form-control-sm w-75 ml-3" id="inputCurrency"
+                                    placeholder="US Dollar">
+                            </div>
                         </div>
+                    </form>
+                </div>
+            </div>
+            </section>
+
+            <section="footer-bottom">
+                <div class="container-fluid border-top d-flex flex-wrap justify-content-between">
+                    <div>
+                        <p class="text-secondary py-3 px-3">Copyright © 2015 Zattix.com. All Rights Reserved.</p>
                     </div>
-                </form>
-            </div>
-        </div>
-        <div class="container-fluid border-top d-flex flex-wrap justify-content-between">
-            <div>
-                <p class="text-secondary py-3 px-3">Copyright © 2015 Zattix.com. All Rights Reserved.</p>
-            </div>
-            <div>
-                <ul class="list-unstyled d-flex">
-                    <li>
-                        <span>
-                            <ion-icon name="logo-facebook" size="large"></ion-icon>
-                        </span>
-                    </li>
-                    <li>
-                        <span>
-                            <ion-icon name="logo-twitter" size="large"></ion-icon>
-                        </span>
-                    </li>
-                    <li>
-                        <span>
-                            <ion-icon name="logo-linkedin" size="large"></ion-icon>
-                        </span>
-                    </li>
-                    <li>
-                        <span>
-                            <ion-icon name="logo-tumblr" size="large"></ion-icon>
-                        </span>
-                    </li>
-                </ul>
-            </div>
-        </div>
+                    <div>
+                        <ul class="list-unstyled d-flex px-3 py-3">
+                            <li>
+                                <span>
+                                    <ion-icon name="logo-facebook" size="large"></ion-icon>
+                                </span>
+                            </li>
+                            <li>
+                                <span>
+                                    <ion-icon name="logo-twitter" size="large"></ion-icon>
+                                </span>
+                            </li>
+                            <li>
+                                <span>
+                                    <ion-icon name="logo-linkedin" size="large"></ion-icon>
+                                </span>
+                            </li>
+                            <li>
+                                <span>
+                                    <ion-icon name="logo-tumblr" size="large"></ion-icon>
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                </section>
     </footer>
 
     <!-- Optional JavaScript -->

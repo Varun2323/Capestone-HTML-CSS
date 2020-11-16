@@ -73,6 +73,11 @@ body {
   color: #d35266;
 }
 
+.card-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
 .hot-image img {
   height: 230px;
   width: 100%;
@@ -101,6 +106,10 @@ body {
   font-size: 20px;
 }
 
+.search-font {
+  font-size: 14px;
+}
+
 .no-gutters {
   margin-right: 0;
   margin-left: 0;
@@ -111,4 +120,10 @@ body {
 .space {
   margin-left: 30px;
   margin-right: 30px;
+}
+
+@media  (max-width: 768px) {
+  .search-info {
+    display: none;
+  }
 }
