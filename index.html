@@ -1,0 +1,702 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    <title>Zattix Store</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light custome-color-grey-black nav-font">
+            <a class="navbar-brand mx-2 text-light cust-image font-family-text font-weight-bold" href="#">
+                <img src="images/logo-1.jpg" class="d-inline-block align-top rounded-circle img-fluid" alt="image">
+                Zattix
+            </a>
+            <button class="navbar-toggler dot" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <ion-icon name="reorder-three-outline" class="custome-color-a"></ion-icon>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item font-family-text">
+                        <a class="nav-link text-light" href="#">
+                            <ion-icon name="home-outline"></ion-icon>&nbsp;&nbsp;HOME<span
+                                class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item font-family-text">
+                        <a class="nav-link text-light" href="#">
+                            <ion-icon name="browsers-outline"></ion-icon>&nbsp;&nbsp;COLLECTIONS
+                        </a>
+                    </li>
+                    <li class="nav-item font-family-text">
+                        <a class="nav-link text-light" href="#">
+                            <ion-icon name="cart-outline"></ion-icon>&nbsp;&nbsp;PURCHASE LIST
+                        </a>
+                    </li>
+                    <li class="nav-item font-family-text">
+                        <button type="button"
+                            class="btn btn-sm custome-color text-light my-1 mx-2 font-family-text">POST AN AD</button>
+                    </li>
+                </ul>
+            </div>
+            <ul class="navbar-nav ml-auto">
+                <li class="mx-3 my-2 text-light d-none d-lg-block">
+                    <ion-icon name="mail-outline"></ion-icon>
+                </li>
+                <li class="mx-3 my-1 text-light d-none d-lg-block font-family-text">Bella</li>
+                <li></li>
+                <li class="cust-image">
+                    <img src="images/caty.jpg" alt="image" class="img-fluid rounded-circle d-none d-lg-block">
+                </li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+        <!-- ======== Search information section ====== -->
+        <section class="search-items-info search-info d-md-block">
+            <div class="container-fluid custome-color py-5">
+                <h1 class="text-center text-light font-family-header font-weight-bold">ZATTIX</h1>
+                <p class="text-center text-light">Buying and Selling Couldn't be Simpler than this!</p>
+                <div class="container mt-3">
+                    <form>
+                        <div class="form-row">
+
+                            <div class="dropdown">
+                                <button class="btn dropdown-toggle text-secondary dept" type="button"
+                                    id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false">
+                                    All Departments
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item dept" href="#">All Departments</a>
+                                    <a class="dropdown-item dept" href="#">Electronics</a>
+                                    <a class="dropdown-item dept" href="#">Pets</a>
+                                    <a class="dropdown-item dept" href="#">Fashion</a>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="what do you search for?">
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="search">
+                            </div>
+                            <button type="button" class="btn custome-color-grey-black text-light"
+                                onclick="document.location='search.html'">Search</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- ======== Hot Ads Section ======== -->
+        <section class="latest-deals">
+            <div class="container-fluid">
+                <div class="mx-4">
+                    <h4 class="mt-3 custome-font-grey font-family-header font-weight-bold"> HOT ADS</h4>
+                    <div class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-12 col-md-4 hot-image">
+                                        <img class="img-fluid" src="images/hot-1.webp" alt="First slide">
+                                    </div>
+                                    <div class="col-12 col-md-8 font-family-text">
+                                        <h5 class="custome-font-color extra-font font-family-header font-weight-bold">
+                                            iPhone X (Space Gray)</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut
+                                            labore
+                                            et dolore magna aliqua. Ut enim ad minim veniam, exercitation ullamco
+                                            laboris nisi ut
+                                            aliquip ex
+                                            ea
+                                            commodo consequa <br>By: <span class="custome-font-grey">Tom Doe</span>
+                                            <br>Location: <span class="custome-font-grey">San Francisco, CA</span></p>
+                                        <div class="d-flex">
+                                            <div class="border text-light custome-color px-2 py-1 font-weight-bold">$
+                                                450</div>
+                                            <div class="border text-light custome-color px-2 py-1">
+                                                <ion-icon name="cart-outline"></ion-icon> Purchase details
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-12 col-md-4 hot-image">
+                                        <img class="img-fluid" src="images/grey.jpeg" alt="First slide">
+                                    </div>
+                                    <div class="col-12 col-md-8">
+                                        <h5 class="custome-font-color extra-font font-family-header font-weight-bold">
+                                            iPhone 11 (Matt Grey)</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut
+                                            labore
+                                            et dolore magna aliqua. Ut enim ad minim veniam, exercitation ullamco
+                                            laboris nisi ut
+                                            aliquip ex
+                                            ea
+                                            commodo consequa <br>By: <span class="custome-font-grey">Jason Mamoa</span>
+                                            <br>Location: <span class="custome-font-grey">NY City, NY</span></p>
+                                        <div class="d-flex">
+                                            <div class="border text-light custome-color px-2 py-1 font-weight-bold">$
+                                                550</div>
+                                            <div class="border text-light custome-color px-2 py-1">
+                                                <ion-icon name="cart-outline"></ion-icon> Purchase details
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ======== Electronics Section ========== -->
+        <section class="electronics-info">
+            <div class="container-fluid mt-3 custome-color-grey">
+                <div class="pt-3">
+                    <p class="ml-4"><span class="font-weight-bold extra-font font-family-header">Electronics </span>
+                        (Computers, Tablets,
+                        Mobile Phones and Cameras.)</p>
+                </div>
+
+                <div class="row mx-2 mt-2 border-top">
+                    <div class="col-12 col-md-3 mt-3">
+                        <div class="card">
+                            <img class="card-img-top" src="images/elect-1.jpg" alt="image">
+                            <div class="card-body">
+                                <h6 class="card-title font-family-header font-weight-bold">iPhone X 32GB - Gray</h6>
+                                <p class="card-text"><span
+                                        class="custome-font-color font-weight-bold">New</span><br>From:
+                                    San Francisco</p>
+                                <div class="card-flex">
+                                    <div>
+                                        <i class="material-icons">add_box</i>
+                                    </div>
+                                    <div class="custome-font-color font-weight-bold">
+                                        $800
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 mt-3">
+                        <div class="card">
+                            <img class="card-img-top" src="images/electronic-2.jpg" alt="image">
+                            <div class="card-body">
+                                <h6 class="card-title font-family-header font-weight-bold">Macbook Pro 256GB - Black
+                                </h6>
+                                <p class="card-text"><span
+                                        class="custome-font-color font-weight-bold">Used</span><br>From:
+                                    Santa Barbara</p>
+                                <div class="card-flex">
+                                    <div>
+                                        <i class="material-icons">add_box</i>
+                                    </div>
+                                    <div class="custome-font-color font-weight-bold">
+                                        $1200
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 mt-3">
+                        <div class="card">
+                            <img class="card-img-top" src="images/electronic-3.jpg" alt="image">
+                            <div class="card-body">
+                                <h6 class="card-title font-family-header font-weight-bold">Antique VCR TV</h6>
+                                <p class="card-text"><span
+                                        class="custome-font-color font-weight-bold">Antique</span><br>From: New York</p>
+                                <div class="card-flex">
+                                    <div>
+                                        <i class="material-icons">add_box</i>
+                                    </div>
+                                    <div class="custome-font-color font-weight-bold">
+                                        $500
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 mt-3">
+                        <div class="card">
+                            <img class="card-img-top" src="images/electronic-4.jpg" alt="image">
+                            <div class="card-body">
+                                <h6 class="card-title font-family-header font-weight-bold">Canon 605 BSD</h6>
+                                <p class="card-text"><span
+                                        class="custome-font-color font-weight-bold">New</span><br>From:
+                                    Atlanta</p>
+                                <div class="card-flex">
+                                    <div>
+                                        <i class="material-icons">add_box</i>
+                                    </div>
+                                    <div class="custome-font-color font-weight-bold">
+                                        $900
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-3 mt-3">
+                        <div class="card">
+                            <img class="card-img-top" src="images/electronic-5.jpg" alt="image">
+                            <div class="card-body">
+                                <h6 class="card-title font-family-header font-weight-bold">Xbox Controller</h6>
+                                <p class="card-text"><span
+                                        class="custome-font-color font-weight-bold">Used</span><br>From:
+                                    San Francisco</p>
+                                <div class="card-flex">
+                                    <div>
+                                        <i class="material-icons">add_box</i>
+                                    </div>
+                                    <div class="custome-font-color font-weight-bold">
+                                        $120
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-3 mt-3">
+                        <div class="card">
+                            <img class="card-img-top" src="images/electronic-6.jpg" alt="image">
+                            <div class="card-body">
+                                <h6 class="card-title font-family-header font-weight-bold">Sony Bass Music</h6>
+                                <p class="card-text"><span
+                                        class="custome-font-color font-weight-bold">New</span><br>From:
+                                    San Francisco</p>
+                                <div class="card-flex">
+                                    <div>
+                                        <i class="material-icons">add_box</i>
+                                    </div>
+                                    <div class="custome-font-color font-weight-bold">
+                                        $300
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- ================Pets section============ -->
+        <section class="pets-info">
+            <div class="container-fluid custome-color-grey">
+                <div class="pt-3">
+                    <p class="ml-4"><span class="font-weight-bold extra-font font-family-header">Pets </span> (Cats,
+                        Dogs, Rabbits,
+                        Parrots,
+                        Exotic Fish)</p>
+                </div>
+
+                <div class="row mx-2 mt-2 border-top">
+                    <div class="col-12 col-md-3 mt-3">
+                        <div class="card">
+                            <img class="card-img-top" src="images/pet-1.jpg" alt="image">
+                            <div class="card-body">
+                                <h6 class="card-title font-family-header font-weight-bold">Egyptian Cat</h6>
+                                <p class="card-text"><span class="custome-font-color font-weight-bold">1 years
+                                        old</span><br>From: Texas, US</p>
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <i class="material-icons">add_box</i>
+                                    </div>
+                                    <div class="custome-font-color font-weight-bold">
+                                        $900
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-3 mt-3">
+                        <div class="card">
+                            <img class="card-img-top" src="images/pet-2.jpg" alt="image">
+                            <div class="card-body">
+                                <h6 class="card-title font-family-header font-weight-bold">Love Bird - Parrot</h6>
+                                <p class="card-text"><span class="custome-font-color font-weight-bold">2 years
+                                        old</span><br>From: New York, US</p>
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <i class="material-icons">add_box</i>
+                                    </div>
+                                    <div class="custome-font-color font-weight-bold">
+                                        $600
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-3 mt-3">
+                        <div class="card">
+                            <img class="card-img-top" src="images/pet-3.jpg" alt="image">
+                            <div class="card-body">
+                                <h6 class="card-title font-family-header font-weight-bold">Tommy Dog</h6>
+                                <p class="card-text"><span class="custome-font-color font-weight-bold">1 years
+                                        old</span><br>From: Atlanta, US</p>
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <i class="material-icons">add_box</i>
+                                    </div>
+                                    <div class="custome-font-color font-weight-bold">
+                                        $900
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-3 mt-3">
+                        <div class="card">
+                            <img class="card-img-top" src="images/pet-4.jpg" alt="image">
+                            <div class="card-body">
+                                <h6 class="card-title font-family-header font-weight-bold">Cute Hamster</h6>
+                                <p class="card-text"><span class="custome-font-color font-weight-bold">5 months
+                                        old</span><br>From: Atlanta US</p>
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <i class="material-icons">add_box</i>
+                                    </div>
+                                    <div class="custome-font-color font-weight-bold">
+                                        $800
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-3 mt-3">
+                        <div class="card">
+                            <img class="card-img-top" src="images/pet-5.jpg" alt="image">
+                            <div class="card-body">
+                                <h6 class="card-title font-family-header font-weight-bold">American Sheep</h6>
+                                <p class="card-text"><span class="custome-font-color font-weight-bold">1.5 years
+                                        old</span><br>From: Florida, US</p>
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <i class="material-icons">add_box</i>
+                                    </div>
+                                    <div class="custome-font-color font-weight-bold">
+                                        $1200
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-3 mt-3">
+                        <div class="card">
+                            <img class="card-img-top" src="images/pet-6.jpg" alt="image">
+                            <div class="card-body">
+                                <h6 class="card-title font-family-header font-weight-bold">Australian Rabbit</h6>
+                                <p class="card-text"><span class="custome-font-color font-weight-bold">2 years
+                                        old</span><br>From: Georgia, US</p>
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <i class="material-icons">add_box</i>
+                                    </div>
+                                    <div class="custome-font-color font-weight-bold">
+                                        $300
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- =========== Fashion Section ======== -->
+        <section class="fashion-info">
+            <div class="container-fluid custome-color-grey pb-5">
+                <div class="pt-3">
+                    <p class="ml-4"><span
+                            class="font-weight-bold extra-font font-family-header font-weight-bold">Fashion </span>
+                        (Snickers, Watches,
+                        T-Shirts,
+                        Hand bags, Shirts)</p>
+                </div>
+
+                <div class="row mx-2 mt-2 border-top">
+                    <div class="col-12 col-md-3 mt-3">
+                        <div class="card">
+                            <img class="card-img-top" src="images/fas-1.jpg" alt="image">
+                            <div class="card-body">
+                                <h6 class="card-title font-family-header font-weight-bold">Nike Sports Snickers</h6>
+                                <p class="card-text"><span
+                                        class="custome-font-color font-weight-bold">New</span><br>From:
+                                    Kentucy, US</p>
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <i class="material-icons">add_box</i>
+                                    </div>
+                                    <div class="custome-font-color font-weight-bold">
+                                        $400
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-3 mt-3">
+                        <div class="card">
+                            <img class="card-img-top" src="images/fas-2.jpg" alt="image">
+                            <div class="card-body">
+                                <h6 class="card-title font-family-header font-weight-bold">Summer Cotton T-Shirt</h6>
+                                <p class="card-text"><span
+                                        class="custome-font-color font-weight-bold">New</span><br>From:
+                                    Seatle, US</p>
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <i class="material-icons">add_box</i>
+                                    </div>
+                                    <div class="custome-font-color font-weight-bold">
+                                        $100
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-3 mt-3">
+                        <div class="card">
+                            <img class="card-img-top" src="images/fas-3.jpg" alt="image">
+                            <div class="card-body">
+                                <h6 class="card-title font-family-header font-weight-bold">Prada Hand Bag</h6>
+                                <p class="card-text"><span
+                                        class="custome-font-color font-weight-bold">Used</span><br>From:
+                                    NY City, US</p>
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <i class="material-icons">add_box</i>
+                                    </div>
+                                    <div class="custome-font-color font-weight-bold">
+                                        $1700
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-3 mt-3">
+                        <div class="card">
+                            <img class="card-img-top" src="images/fas-4.jpg" alt="image">
+                            <div class="card-body">
+                                <h6 class="card-title font-family-header font-weight-bold">Leather Purchase</h6>
+                                <p class="card-text"><span
+                                        class="custome-font-color font-weight-bold">New</span><br>From:
+                                    Atlanta US</p>
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <i class="material-icons">add_box</i>
+                                    </div>
+                                    <div class="custome-font-color font-weight-bold">
+                                        $300
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-3 mt-3">
+                        <div class="card">
+                            <img class="card-img-top" src="images/fas-5.jpg" alt="image">
+                            <div class="card-body">
+                                <h6 class="card-title font-family-header font-weight-bold">WD Smart Watch</h6>
+                                <p class="card-text"><span
+                                        class="custome-font-color font-weight-bold">Used</span><br>From:
+                                    NY, US</p>
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <i class="material-icons">add_box</i>
+                                    </div>
+                                    <div class="custome-font-color font-weight-bold">
+                                        $400
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-3 mt-3">
+                        <div class="card">
+                            <img class="card-img-top" src="images/fas-6.jpg" alt="image">
+                            <div class="card-body">
+                                <h6 class="card-title font-family-header font-weight-bold">Denim Jacket</h6>
+                                <p class="card-text"><span
+                                        class="custome-font-color font-weight-bold">New</span><br>From:
+                                    Atlanta, US</p>
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <i class="material-icons">add_box</i>
+                                    </div>
+                                    <div class="custome-font-color font-weight-bold">
+                                        $200
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- =======footer========= -->
+    <footer>
+        <section class="info">
+            <div class="row py-4">
+                <div class="col-md-4 col-12 .no-gutters">
+                    <div class="d-flex justify-content-center cust-image">
+                        <img src="images/logo-1.jpg" class="img-fluid" alt="logo">
+                        <h4 class="custome-font-grey font-family-header font-weight-bold"> ZATTIX </h4>
+                    </div>
+                    <p class="px-4 py-3 text-center">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                        ut
+                        aliquip ex ea commodo consequat.
+                    </p>
+                </div>
+
+                <div class="col-md-2 col-12 d-flex justify-content-center">
+                    <ul class="list-unstyled .no gutters">
+                        <li class="font-weight-bold custome-font-color font-family-header font-weight-bold">
+                            <u>Categories</u></li>
+                        <li><a href="#" class="text-secondary">Pets</a></li>
+                        <li><a href="#" class="text-secondary">Fashion</a></li>
+                        <li><a href="#" class="text-secondary">Electronic</a></li>
+                        <li><a href="#" class="text-secondary">Food & Drinks</a></li>
+                        <li><a href="#" class="text-secondary">Clothing</a></li>
+                        <li><a href="#" class="text-secondary">Kids</a></li>
+                        <li><a href="#" class="text-secondary">Automotives</a></li>
+                        <li><a href="#" class="text-secondary">Kitchen</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-2 col-12 d-flex justify-content-center">
+                    <ul class="list-unstyled pl-4">
+                        <li class="font-weight-bold custome-font-color font-family-header font-weight-bold">
+                            <u>Navigation</u></li>
+                        <li><a href="#" class="text-secondary">Home</a></li>
+                        <li><a href="#" class="text-secondary">Login</a></li>
+                        <li><a href="#" class="text-secondary">Sign Up</a></li>
+                        <li><a href="#" class="text-secondary">Terms & Conditions</a></li>
+                        <li><a href="#" class="text-secondary">FAQ</a></li>
+                        <li><a href="#" class="text-secondary">Help</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 col-12 .no gutters d-flex justify-content-center">
+                    <form class="pt-4">
+                        <div class="form-group row ">
+                            <label for="inputPassword"
+                                class="col-3 col-form-label font-weight-bold custome-font-color">COUNTRY</label>
+                            <div class="col-9">
+                                <input type="text" class="form-control form-control-sm w-75 ml-3" id="inputPassword"
+                                    placeholder="United States">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="inputLanguage"
+                                class="col-3 col-form-label font-weight-bold custome-font-color">LANGUAGE</label>
+                            <div class="col-9">
+                                <input type="text" class="form-control form-control-sm w-75 ml-3" id="inputLanguage"
+                                    placeholder="English">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="inputCurrency"
+                                class="col-3 col-form-label font-weight-bold custome-font-color">CURRENCY</label>
+                            <div class="col-9">
+                                <input type="text" class="form-control form-control-sm w-75 ml-3" id="inputCurrency"
+                                    placeholder="US Dollar">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="container-fluid border-top d-flex flex-wrap justify-content-between">
+                <div>
+                    <p class="text-secondary py-3 px-3">Copyright © 2015 Zattix.com. All Rights Reserved.</p>
+                </div>
+                <div>
+                    <ul class="list-unstyled d-flex px-3 py-3">
+                        <li>
+                            <span>
+                                <ion-icon name="logo-facebook" size="large"></ion-icon>
+                            </span>
+                        </li>
+                        <li>
+                            <span>
+                                <ion-icon name="logo-twitter" size="large"></ion-icon>
+                            </span>
+                        </li>
+                        <li>
+                            <span>
+                                <ion-icon name="logo-linkedin" size="large"></ion-icon>
+                            </span>
+                        </li>
+                        <li>
+                            <span>
+                                <ion-icon name="logo-tumblr" size="large"></ion-icon>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

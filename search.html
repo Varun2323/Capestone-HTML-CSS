@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Search Store Results</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light custome-color-grey-black nav-font">
+            <a class="navbar-brand mx-2 text-light cust-image font-family-text font-weight-bold" href="#">
+                <img src="images/logo-1.jpg" class="d-inline-block align-top rounded-circle img-fluid" alt="image">
+                Zattix
+            </a>
+            <button class="navbar-toggler float-md-right dot" type="button" data-toggle="collapse"
+                data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <ion-icon name="reorder-three-outline" class="custome-color-a"></ion-icon>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item font-family-text">
+                        <a class="nav-link text-light" href="#">
+                            <ion-icon name="home-outline"></ion-icon>&nbsp;&nbsp;HOME<span
+                                class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item font-family-text">
+                        <a class="nav-link text-light" href="#">
+                            <ion-icon name="browsers-outline"></ion-icon>&nbsp;&nbsp;COLLECTIONS
+                        </a>
+                    </li>
+                    <li class="nav-item font-family-text">
+                        <a class="nav-link text-light" href="#">
+                            <ion-icon name="cart-outline"></ion-icon>&nbsp;&nbsp;PURCHASE LIST
+                        </a>
+                    </li>
+                    <li class="nav-item font-family-text">
+                        <button type="button"
+                            class="btn btn-sm custome-color text-light my-1 mx-2 font-family-text">POST AN AD</button>
+                    </li>
+                </ul>
+            </div>
+            <ul class="navbar-nav d-flex ml-auto">
+                <li class="mx-3 my-2 text-light d-none d-lg-block">
+                    <ion-icon name="mail-outline"></ion-icon>
+                </li>
+                <li class="mx-3 my-1 text-light d-none d-lg-block font-family-text">Bella</li>
+                <li></li>
+                <li class="cust-image">
+                    <img src="images/caty.jpg" alt="image" class="img-fluid rounded-circle d-none d-lg-block">
+                </li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- ======== Search information section ====== -->
+
+        <section class="search-items-info search-info d-md-block">
+            <div class="container-fluid custome-color py-5">
+                <h1 class="text-center text-light font-family-header font-weight-bold">ZATTIX</h1>
+                <p class="text-center text-light">Buying and Selling Couldn't be Simpler than this!</p>
+                <div class="container mt-3">
+                    <form>
+                        <div class="form-row">
+
+                            <div class="dropdown">
+                                <button class="btn dropdown-toggle text-secondary dept" type="button"
+                                    id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false">
+                                    All Departments
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item dept" href="#">All Departments</a>
+                                    <a class="dropdown-item dept" href="#">Electronics</a>
+                                    <a class="dropdown-item dept" href="#">Pets</a>
+                                    <a class="dropdown-item dept" href="#">Fashion</a>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="what do you search for?">
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="search">
+                            </div>
+                            <button type="button" class="btn custome-color-grey-black text-light"
+                                onclick="document.location='search.html'">Search</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- ======== Search filters Section ========== -->
+        <section class="search-filters">
+            <div class="row border-bottom">
+                <div class="col"></div>
+                <div class="col-10">
+                    <div class="row custome-color-grey">
+
+                        <div class="col-3 border-right pt-3 pl-4 d-none d-md-block">
+                            <form>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox-c"
+                                        value="option1">
+                                    <label class="form-check-label custome-font-grey font-weight-bold"
+                                        for="inlineCheckbox-c">USED</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox-d"
+                                        value="option2">
+                                    <label class="form-check-label custome-font-grey font-weight-bold"
+                                        for="inlineCheckbox-d">NEW</label>
+                                </div>
+                            </form>
+
+                            <label class="text-dark font-weight-bold pt-2">Type/Modal</label>
+
+                            <form>
+
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox-a"
+                                        value="option1">
+                                    <label class="form-check-label custome-font-grey font-weight-bold"
+                                        for="inlineCheckbox-a">Sedan</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox-b"
+                                        value="option2">
+                                    <label class="form-check-label custome-font-grey font-weight-bold"
+                                        for="inlineCheckbox-b">Sports</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox-k"
+                                        value="option2">
+                                    <label class="form-check-label custome-font-grey font-weight-bold"
+                                        for="inlineCheckbox-k">Truck</label>
+                                </div>
+                            </form>
+                            <ul class="list-unstyled">
+                                <li class="text-dark font-weight-bold py-1">Brand</li>
+                                <li class="custome-font-grey font-weight-bold">BMW</li>
+                                <li class="custome-font-grey font-weight-bold">VOLVO</li>
+                                <li class="custome-font-grey font-weight-bold">Mercedes</li>
+                                <li class="custome-font-grey font-weight-bold">Toyota</li>
+                                <li class="custome-font-grey font-weight-bold">Tesla</li>
+                            </ul>
+                            <label class="text-dark font-weight-bold pt-1">Price Range</label>
+                            <form>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox-e"
+                                        value="option1">
+                                    <label class="form-check-label custome-font-grey font-weight-bold"
+                                        for="inlineCheckbox-e">$25,000 - $50,000</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox-f"
+                                        value="option1">
+                                    <label class="form-check-label custome-font-grey font-weight-bold"
+                                        for="inlineCheckbox-f">$50,000 - $75,000</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox-g"
+                                        value="option1">
+                                    <label class="form-check-label custome-font-grey font-weight-bold"
+                                        for="inlineCheckbox-g">+$75,000</label>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-12 col-md-9 border">
+
+                            <div class="container-fluid py-1 border-bottom">
+                                <p class="custome-font-grey font-weight-bold">134 Results for "Car" Search at United
+                                    States
+                                    in Category Automotives</p>
+                            </div>
+                            <div class="container search-image">
+                                <div class="row mt-2 border custome-white">
+                                    <div class="col-12 col-md-3 no-gutters">
+                                        <img src="images/sea-1.jpg" alt="images" class="img-fluid w-100">
+                                    </div>
+
+                                    <div class="col-12 col-md-9 pt-2">
+                                        <h5 class="font-family-header font-weight-bold">GT - 3000rpm Horse Power</h5>
+                                        <p class="search-font"><span
+                                                class="custome-font-color font-weight-bold">New</span><br>Lorem ipsum
+                                            dolor
+                                            sit amet, consectetur elit, sed
+                                            do eiusmod tempor incididunt ut labore<br>Location: San Francisco</p>
+                                        <div class="d-flex justify-content-between">
+                                            <span class="custome-font-grey small">23 July 2019
+                                            </span>
+                                            <span class="custome-font-color font-weight-bold pr-3">$80,000</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row mt-3 border  custome-white">
+                                    <div class="col-12 col-md-3 no-gutters">
+                                        <img src="images/sea-2.jpg" alt="images" class="img-fluid w-100">
+                                    </div>
+
+                                    <div class="col-12 col-md-9 pt-2">
+                                        <h5 class="font-family-header font-weight-bold">Porsche - Limited Edition</h5>
+                                        <p class="small"><span
+                                                class="custome-font-color font-weight-bold">Used</span><br>Lorem ipsum
+                                            dolor
+                                            sit amet, consectetur adipiscing elit, sed
+                                            do eiusmod tempor incididunt ut labore<br>Location: Santa Barbara</p>
+                                        <div class="d-flex justify-content-between">
+                                            <span class="custome-font-grey small">19 Dec, 2018
+
+                                            </span>
+                                            <span class="custome-font-color font-weight-bold pr-3">$75,000</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row mt-3 border  custome-white">
+                                    <div class="col-12 col-md-3 no-gutters">
+                                        <img src="images/sea-3.jpg" alt="images" class="img-fluid w-100">
+                                    </div>
+
+                                    <div class="col-12 col-md-9 pt-2">
+                                        <h5 class="font-family-header font-weight-bold">BMW - Sedan 53</h5>
+                                        <p class="small"><span
+                                                class="custome-font-color font-weight-bold">New</span><br>Lorem ipsum
+                                            dolor
+                                            sit amet, consectetur adipiscing elit, sed
+                                            do eiusmod tempor incididunt ut labore<br>Location: New York</p>
+                                        <div class="d-flex justify-content-between">
+                                            <span class="custome-font-grey small">18 Jan, 2020
+
+                                            </span>
+                                            <span class="custome-font-color font-weight-bold pr-3">$60,000</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row mt-3 border  custome-white">
+                                    <div class="col-12 col-md-3 no-gutters">
+                                        <img src="images/sea-4.jpg" alt="images" class="img-fluid w-100">
+                                    </div>
+
+                                    <div class="col-12 col-md-9 pt-2">
+                                        <h5 class="font-family-header font-weight-bold">Audi - Q3</h5>
+                                        <p class="small"><span
+                                                class="custome-font-color font-weight-bold">New</span><br>Lorem ipsum
+                                            dolor
+                                            sit amet, consectetur adipiscing elit, sed
+                                            do eiusmod tempor incididunt ut labore<br>Location: Atlanta</p>
+                                        <div class="d-flex justify-content-between">
+                                            <span class="custome-font-grey small pr-2">21 Feb, 2019
+
+                                            </span>
+                                            <span class="custome-font-color font-weight-bold pr-3">$100,000</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row my-3 border custome-white">
+                                    <div class="col-12 col-md-3 no-gutters">
+                                        <img src="images/sea-5.jpg" alt="images" class="img-fluid w-100">
+                                    </div>
+
+                                    <div class="col-12 col-md-9 pt-2">
+                                        <h5 class="font-family-header font-weight-bold">Volkswagon Polo 1975</h5>
+                                        <p class="small"><span
+                                                class="custome-font-color font-weight-bold">Used</span><br>Lorem ipsum
+                                            dolor
+                                            sit amet, consectetur adipiscing elit, sed
+                                            do eiusmod tempor incididunt ut labore<br>Location: Atlanta</p>
+                                        <div class="d-flex justify-content-between">
+                                            <span class="custome-font-grey small">23 Nov, 2014
+
+                                            </span>
+                                            <span class="custome-font-color font-weight-bold pr-3">$30,000</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col"></div>
+            </div>
+        </section>
+    </main>
+
+    <!-- =======footer========= -->
+    <footer>
+        <section class="info">
+            <div class="row py-4">
+                <div class="col-md-4 col-12 .no-gutters">
+                    <div class="d-flex justify-content-center cust-image">
+                        <img src="images/logo-1.jpg" class="img-fluid" alt="logo">
+                        <h4 class="custome-font-grey font-family-header font-weight-bold"> ZATTIX </h4>
+                    </div>
+                    <p class="px-4 py-3 text-center">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                        ut
+                        aliquip ex ea commodo consequat.
+                    </p>
+                </div>
+
+                <div class="col-md-2 col-12 d-flex justify-content-center">
+                    <ul class="list-unstyled .no gutters">
+                        <li class="font-weight-bold custome-font-color font-family-header font-weight-bold">
+                            <u>Categories</u></li>
+                        <li><a href="#" class="text-secondary">Pets</a></li>
+                        <li><a href="#" class="text-secondary">Fashion</a></li>
+                        <li><a href="#" class="text-secondary">Electronic</a></li>
+                        <li><a href="#" class="text-secondary">Food & Drinks</a></li>
+                        <li><a href="#" class="text-secondary">Clothing</a></li>
+                        <li><a href="#" class="text-secondary">Kids</a></li>
+                        <li><a href="#" class="text-secondary">Automotives</a></li>
+                        <li><a href="#" class="text-secondary">Kitchen</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-2 col-12 d-flex justify-content-center">
+                    <ul class="list-unstyled pl-4">
+                        <li class="font-weight-bold custome-font-color font-family-header font-weight-bold">
+                            <u>Navigation</u></li>
+                        <li><a href="#" class="text-secondary">Home</a></li>
+                        <li><a href="#" class="text-secondary">Login</a></li>
+                        <li><a href="#" class="text-secondary">Sign Up</a></li>
+                        <li><a href="#" class="text-secondary">Terms & Conditions</a></li>
+                        <li><a href="#" class="text-secondary">FAQ</a></li>
+                        <li><a href="#" class="text-secondary">Help</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 col-12 .no gutters d-flex justify-content-center">
+                    <form class="pt-4">
+                        <div class="form-group row ">
+                            <label for="inputPassword"
+                                class="col-3 col-form-label font-weight-bold custome-font-color">COUNTRY</label>
+                            <div class="col-9">
+                                <input type="text" class="form-control form-control-sm w-75 ml-3" id="inputPassword"
+                                    placeholder="United States">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="inputLanguage"
+                                class="col-3 col-form-label font-weight-bold custome-font-color">LANGUAGE</label>
+                            <div class="col-9">
+                                <input type="text" class="form-control form-control-sm w-75 ml-3" id="inputLanguage"
+                                    placeholder="English">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="inputCurrency"
+                                class="col-3 col-form-label font-weight-bold custome-font-color">CURRENCY</label>
+                            <div class="col-9">
+                                <input type="text" class="form-control form-control-sm w-75 ml-3" id="inputCurrency"
+                                    placeholder="US Dollar">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            
+                <div class="container-fluid border-top d-flex flex-wrap justify-content-between">
+                    <div>
+                        <p class="text-secondary py-3 px-3">Copyright © 2015 Zattix.com. All Rights Reserved.</p>
+                    </div>
+                    <div>
+                        <ul class="list-unstyled d-flex px-3 py-3">
+                            <li>
+                                <span>
+                                    <ion-icon name="logo-facebook" size="large"></ion-icon>
+                                </span>
+                            </li>
+                            <li>
+                                <span>
+                                    <ion-icon name="logo-twitter" size="large"></ion-icon>
+                                </span>
+                            </li>
+                            <li>
+                                <span>
+                                    <ion-icon name="logo-linkedin" size="large"></ion-icon>
+                                </span>
+                            </li>
+                            <li>
+                                <span>
+                                    <ion-icon name="logo-tumblr" size="large"></ion-icon>
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                </section>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
